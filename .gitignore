@@ -1,0 +1,17 @@
+.idea/
+.pytest_cache/
+*.pyc
+__pycache__/
+report.xml
+.cache/
+venv/
+.venv/
+.vscode/settings.json
+.vscode/launch.json
+.DS_Store
+**/.vscode/
+**/site-packages/
+site/
+docs/drawio-exporter/
+*.bkp
+*.dtmp
