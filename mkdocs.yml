@@ -1,17 +1,16 @@
 site_name: Test Site
 
 nav:
-  - Landing Page: 
-    - index.md
+  - Landing Page:
+      - index.md
   - Page One: page_one/index.md
 
-
 plugins:
-    - search
-    - drawio_file
+  - search
+  - drawio_file
 
-#extra_javascript:
-#  - javascripts/viewer-static.min.js
+extra_javascript:
+  - js/extra.js
 
 theme:
   name: material
@@ -35,16 +34,16 @@ theme:
   features:
     - content.action.view
     - content.action.edit
-    - content.tabs.link 
+    - content.tabs.link
     - content.code.copy
     - content.code.annotate
     - content.code.select
     - navigation.footer
     - navigation.indexes
     ## Disable instant for now as it creates issues with loading
-    ## draw.io diagrams. 
-    # - navigation.instant # <------------------------------------------culprit
-    #- navigation.instant.progress
+    ## draw.io diagrams.
+    - navigation.instant # <------------------------------------------culprit
+    - navigation.instant.progress
     - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
